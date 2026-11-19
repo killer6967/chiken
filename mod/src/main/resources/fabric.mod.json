@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "offendeddirt",
+  "version": "${version}",
+  "name": "Обиженная земля",
+  "description": "Курицы в шляпах из земли, мычащие прыжки и вежливые криперы.",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.example.offendeddirt.OffendedDirtMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
